@@ -96,6 +96,7 @@ body {
 .item-picture {
   border-radius: 10px 10px 0 0;
   width: 100%;
+  display: block;
 }
 
 .item-label {

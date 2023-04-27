@@ -38,8 +38,8 @@ body {
 
 .search-bar {
     display: flex;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 	/*align-items: center;  
     width: 100%;*/ 
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ body {
 }
 
 .img-search {
-    margin-top: 1px;
+    margin-top: 17px;
     margin-left: 20px;
     position: absolute;
 }

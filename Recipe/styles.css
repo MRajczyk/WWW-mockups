@@ -1,0 +1,44 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255,59,148,0.41) 0%, rgba(188,38,128,0.41) 100%);
+}
+
+.topbar-title {
+    margin-left: 10px;
+    color: #FFF0DE;
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.topbar-buttons {
+    margin-right: 20px;
+    display: inline-block;
+    line-height: 58px;
+}
+
+.topbar-buttons img:hover {
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.left {
+    height: 100%;
+    width: 40%;
+}
+
+.right {
+    height: 100%;
+    width: 60%;
+}

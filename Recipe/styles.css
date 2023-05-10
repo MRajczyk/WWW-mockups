@@ -149,6 +149,7 @@ body {
 #img-preview {
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .similar-recipe-container {
@@ -167,6 +168,7 @@ body {
 #img-similar {
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .div-header-text-similar {

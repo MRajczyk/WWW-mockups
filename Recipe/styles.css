@@ -88,19 +88,20 @@ body {
 
 .div-header-text {
     position: absolute;
-    font-size: 30pt;
+    font-size: 25pt;
     transform: translate(calc(-15% - 50px), calc(-55% - 25px));
+    font-family: 'Lily Script One';
 }
 
 .ingredients {
     padding-top: 25px;
     padding-bottom: 20px;
     padding-left: 50px;
-    background-color: #DBB89E80;
+    background-color: #DBB89E50;
 }
 
 .ingredients-list {
-    
+    font-family: 'Poppins';
 }
 
 .steps {
@@ -108,11 +109,11 @@ body {
     padding-top: 25px;
     padding-bottom: 20px;
     padding-left: 50px;
-    background-color: #DBB89E80;
+    background-color: #FFECCC50;
 }
 
 .steps-list {
-
+    font-family: 'Poppins';
 }
 
 .preview-image-container {
@@ -126,6 +127,7 @@ body {
 
 #img-preview {
     width: 100%;
+    border-radius: 10px;
 }
 
 .similar-recipe-container {
@@ -140,16 +142,14 @@ body {
     background-color: #F4389150;
 }
 
-.check-similar {
-
-}
-
 #img-similar {
     width: 100%;
+    border-radius: 10px;
 }
 
 .div-header-text-similar {
     position: absolute;
-    font-size: 30pt;
+    font-size: 25pt;
     transform: translate(-15%, -50%);
+    font-family: 'Lily Script One';
 }

@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     padding-bottom: 1000px;
 }
@@ -60,7 +65,7 @@ body {
 }
 
 .register-form {
-    position: block;
+    display: block;
 }
 
 .register-input {
@@ -77,11 +82,6 @@ body {
 .register-form-button {
     margin-top: 30px;
     display: block;
-    width: 100%;
-    height: 40px;
-}
-
-.register-form-button {
     width: 150px;
     height: 40px;
     background-color: #F589B0;

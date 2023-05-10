@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     padding-bottom: 1000px;
 }
 
 .topbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(255,59,148,0.41) 0%, rgba(188,38,128,0.41) 100%);
@@ -29,16 +35,121 @@ body {
 
 .content{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+.cook-button-container {
+    width: 100%;
+}
+
+#cook-button {
+    margin-top: 30px;
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #F589B0;
+    color: #FFF0DE;
+    border: 0;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lily Script One';
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.recipe-title-container {
+
+}
+
+#recipe-title {
+    margin-top: 30px;
+    display: block;
+    text-align: center; 
+    font-family: 'Poppins';
+    font-size: 80pt;
 }
   
 .left {
+    margin-right: 30px;
+    margin-left: 10%;
+    height: 100%;
+    width: 60%;
+}
+
+.right {
+    margin-left: 30px;
+    margin-right: 10%;
     height: 100%;
     width: 40%;
 }
 
-.right {
-    height: 100%;
+.div-header-text {
+    position: absolute;
+    font-size: 30pt;
+    transform: translate(calc(-15% - 50px), calc(-55% - 25px));
+}
+
+.ingredients {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: #DBB89E80;
+}
+
+.ingredients-list {
+    
+}
+
+.steps {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: #DBB89E80;
+}
+
+.steps-list {
+
+}
+
+.preview-image-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.preview-image-container {
     width: 60%;
+}
+
+#img-preview {
+    width: 100%;
+}
+
+.similar-recipe-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.similar-recipe-wrapper {
+    padding: 50px;
+    background-color: #F4389150;
+}
+
+.check-similar {
+
+}
+
+#img-similar {
+    width: 100%;
+}
+
+.div-header-text-similar {
+    position: absolute;
+    font-size: 30pt;
+    transform: translate(-15%, -50%);
 }

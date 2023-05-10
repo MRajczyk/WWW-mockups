@@ -4,6 +4,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="topbar">
@@ -15,16 +16,16 @@
       <img style="vertical-align: middle" src="user_info.png">
     </div>
   </div>
-  <div>
+  <div class="cook-button-container">
+    <button id="cook-button">gotuj</button>
+  </div>
   <div class="content">
     <div class="left">
-      <div class="cook-button-container">
-        <button>gotuj</button>
-      </div>
       <div class="recipe-title-container">
         <div id="recipe-title">Muffinki</div>
       </div>
       <div class="ingredients">
+        <p class="div-header-text">składniki</p>
         <ul class="ingredients-list">
           <li>300g mąki pszennej</li>
           <li>100g cukru</li>
@@ -37,6 +38,7 @@
         </ul>
       </div>
       <div class="steps">
+        <p class="div-header-text">przepis</p>  
         <ol class="steps-list">
           <li>W jednej misce wymieszać mąkę, cukier, cukier waniliowy i proszek do pieczenia.</li>
           <li>W drugiej misce wymieszać trzepaczką gazowaną wodę mineralną, olej i jajka.</li>
@@ -48,12 +50,12 @@
     </div>
     <div class="right">
       <div class="preview-image-container">
-        <img src="muffinka_vert.png">
+        <img id="img-preview" src="muffinka_vert.png">
       </div>
       <div class="similar-recipe-container">
+        <p class="div-header-text-similar">zobacz podobne</p>
         <div class="similar-recipe-wrapper">
-          <p class="check-similar">zobacz podobne</p>
-          <img src="muffinka_vert.png">
+          <img id="img-similar" src="muffinka_vert.png">
         </div>
       </div>
     </div>

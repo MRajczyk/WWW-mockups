@@ -50,36 +50,125 @@ body {
   font-family: Poppins;
   font-weight: 500;
   font-size: 96px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.recipe-creator-container {
+    text-align: center;
 }
 
 .recipe-creator {
-
+    display: inline-block;
+    text-align: left;
 }
 
 .activity {
+    background-color: #BC2680;
+    color: #FFF0DE;
+    font-family: 'Poppins';
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
 
+#product {
+    margin-left: 10%;
+    width: 30%;
+    color: #FFF0DE;
+    background-color: inherit;
+    font-size: 20pt;
+    font-family: 'Poppins';
+    border: 0;
+    box-shadow: 0;
+    border-bottom: 2px #FFF0DE solid;
+}
+
+#quantity {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+    color: #FFF0DE;
+    background-color: inherit;
+    font-size: 20pt;
+    font-family: 'Poppins';
+    border: 0;
+    box-shadow: 0;
+    border-bottom: 2px #FFF0DE solid;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #FFF0DE;
+    opacity: 50%;
 }
 
 #units {
-    
+    background-color: #FFF0DE;
+    border: 0;
+    font-size: 20pt;
+    font-family: 'Poppins';
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 15px;
 }
 
 .icons-row {
     display: flex;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .icon-wrapper {
+    margin: 10px 5px 10px 5px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40%;
+    width: 16%;
+}
+
+.icon {
+    width: 50%;
 }
 
 .button-container {
-
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #cancel {
-
+    margin-top: 30px;
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background-color: #FFF0DE;
+    color: #F589B0;
+    border: 0;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 #ready {
-
+    margin-top: 30px;
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background-color: #F589B0;
+    color: #FFF0DE;
+    border: 0;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    cursor: pointer;
 }

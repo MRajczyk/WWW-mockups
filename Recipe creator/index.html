@@ -18,41 +18,43 @@
 	<div class="title">
     <p>KREATOR PRZEPISÓW</p>
   </div>
-  <div class="recipe-creator">
-    <div class="activity">
-      <p>Czynność</p>
-      <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
-    </div>
-    <div class="activity">
-      <p>Dodaj</p>
-      <input placeholder="produkt">
-      <input placeholder="ilość">
-      <select name="units" id="units">
-        <option value="gram">gram</option>
-        <option value="liter">mililiter</option>
-        <option value="clove">clove</option>
-      </select>
-    </div>
-    <div class="icons-row">
-      <div class="icon-wrapper">
-        <img src="warning-sign.png">
+  <div class="recipe-creator-container">
+    <div class="recipe-creator">
+      <div class="activity">
+        <p>Czynność</p>
+        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
       </div>
-      <div class="icon-wrapper">
-        <img src="mixer.png">
+      <div class="activity">
+        <p>Dodaj</p>
+        <input id="product" placeholder="produkt">
+        <input id="quantity" placeholder="ilość">
+        <select name="units" id="units">
+          <option value="gram">gram</option>
+          <option value="liter">mililiter</option>
+          <option value="clove">clove</option>
+        </select>
       </div>
-      <div class="icon-wrapper">
-        <img src="mixer.png">  
+      <div class="icons-row">
+        <div class="icon-wrapper" style="background-color:beige">
+          <img class="icon" src="warning-sign.png">
+        </div>
+        <div class="icon-wrapper">
+          <img class="icon" src="mixer.png">
+        </div>
+        <div class="icon-wrapper">
+          <img class="icon" src="mixer.png">  
+        </div>
+        <div class="icon-wrapper">
+          <img class="icon" src="ingredient.png">
+        </div>
+        <div class="icon-wrapper">
+          <img class="icon" src="mixer.png">
+        </div>
       </div>
-      <div class="icon-wrapper">
-        <img src="ingredient.png">
+      <div class="button-container">
+        <button id="cancel">Anuluj</button>
+        <button id="ready">Gotowe!</button>
       </div>
-      <div class="icon-wrapper">
-        <img src="mixer.png">
-      </div>
-    </div>
-    <div class="button-container">
-      <button id="cancel">Anuluj</button>
-      <button id="ready">Gotowe!</button>
     </div>
   </div>
 </body>

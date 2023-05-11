@@ -65,11 +65,11 @@ body {
 }
 
 .icons-row {
-
+    display: flex;
 }
 
 .icon-wrapper {
-
+    cursor: pointer;
 }
 
 .button-container {
@@ -81,5 +81,5 @@ body {
 }
 
 #ready {
-    
+
 }

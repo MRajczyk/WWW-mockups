@@ -44,15 +44,34 @@ body {
     cursor: pointer;
 }
 
-.centered-container {
+.title {
+    display: block;
     text-align: center;
-}
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 48pt;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
 
-.recipe-start {
-  display: block;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 48pt;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+  #action-img {
+    width: 400px;
+  }
+  
+  #start-button {
+      margin-top: 80px;
+      display: inline-block;
+      width: 20%;
+      background-color: #F589B0;
+      color: #FFF0DE;
+      border: 0;
+      border-radius: 7px;
+      text-align: center;
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  
